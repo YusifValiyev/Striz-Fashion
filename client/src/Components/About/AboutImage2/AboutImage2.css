@@ -1,0 +1,51 @@
+#aboutimage2{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#aboutimage2 .aboutimage2-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    padding: 5% 10%;
+}
+
+#aboutimage2 .aboutimage2-text .about-image-h5{
+    font-size: 18px;
+    font-family: "Rubik",Sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.75rem;
+}
+
+#aboutimage2 .aboutimage2-text img{
+    transition: 0.3s;
+}
+
+#aboutimage2 .aboutimage2-text img:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 960px){
+    #aboutimage2 .aboutimage2-text{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    #aboutimage2 .aboutimage2-text{
+        width: 100%;
+    }
+    #aboutimage2 .aboutimage2-text .about-image-h5{
+        font-size: 14px;
+    }
+}

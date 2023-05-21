@@ -1,0 +1,142 @@
+#summer{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+}
+#summer .summer-video{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/banner1_5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#summer .summer-video .summer-video-texts{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#summer .summer-video .summer-video-texts .summer-video-texts-h4{
+    font-size: 12px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.8px;
+}
+#summer .summer-video .summer-video-texts .summer-video-texts-h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 70%;
+}
+
+#summer .summer-video .summer-video-play{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#summer .summer-video .summer-video-play:hover{
+    color: #cd1d1d;
+}
+
+#summer .summer-video .summer-video-play svg{
+    font-size: 5rem;
+}
+#summer .summer-video .summer-video-play .summer-video-play-h3{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 2.8px;
+}
+#summer .summer-icons-texts{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/b_policy_h2.jpg");
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 2% 7%;
+}
+#summer .summer-icons-texts .summer-icons-texts-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#summer .summer-icons-texts .summer-icons-texts-cards svg{
+    color: red;
+    font-size: 4rem;
+}
+#summer .summer-icons-texts .summer-icons-texts-cards .summer-icons-texts-cards-texts .summer-icons-texts-cards-texts-h3{
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#summer .summer-icons-texts .summer-icons-texts-cards .summer-icons-texts-cards-texts .summer-icons-texts-cards-texts-p{
+    color: #999;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.active{
+    display: flex !important;
+}
+
+@media only screen and (max-width: 1015px){
+    #summer .summer-icons-texts{
+        grid-template-columns: 1fr 1fr;
+    }
+    #summer .summer-video .summer-video-texts .summer-video-texts-h1{
+        font-size: 50px;
+    }
+    #summer .summer-icons-texts .summer-icons-texts-cards svg{
+        color: red;
+        font-size: 4rem;
+    }
+    #summer .summer-video .summer-video-play svg{
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    #summer .summer-video{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #summer .summer-video .summer-video-texts{
+        align-items: center;
+        text-align: center;
+    }
+    #summer .summer-icons-texts{
+        grid-template-columns: 1fr;
+    }
+    #summer .summer-video .summer-video-texts .summer-video-texts-h1{
+        font-size: 20px;
+    }
+    #summer .summer-video .summer-video-texts .summer-video-texts-h4{
+        font-size: 10px;
+    }
+    #summer .summer-icons-texts .summer-icons-texts-cards svg{
+        color: red;
+        font-size: 3rem;
+    }   
+     #summer .summer-video .summer-video-play svg{
+        font-size: 2rem;
+    }
+    #summer .summer-video .summer-video-play{
+        gap: 10px;
+    }
+    #summer .summer-video .summer-video-play .summer-video-play-h3{
+        font-size: 1rem;
+    }
+}

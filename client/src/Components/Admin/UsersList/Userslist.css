@@ -1,0 +1,87 @@
+#userslist{
+    position: absolute;
+    width: 82%;
+    right: 0;
+    top: 0;
+    background-color: #0B2744;
+    padding: 5%;
+    font-family: "Poppins";
+    height: 100%;
+}
+
+#userslist table{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    background-color: rgba(69, 69, 69, 0.495);
+    border-radius: 10px;
+}
+
+#userslist table thead th{
+    border: 1px solid white;
+    padding:20px;
+    text-align: start;
+    border: none;
+}
+
+#userslist table thead tr th{
+    background-color: transparent !important;
+    color: white;
+}
+
+#userslist table thead{
+    padding: 20px;
+}
+
+#userslist table tbody tr{
+    border-top:1px solid rgb(193, 193, 193) ;
+    border-bottom:1px solid rgb(216, 216, 216) ;
+    padding: 20px !important;
+
+}
+
+#userslist table tbody tr td{
+    border: none;
+    padding: 20px;
+}
+
+#userslist table tbody tr td{
+    color: white;
+}
+
+#userslist table tbody tr .settings-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#userslist table tbody tr .settings-btns .dlt-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: .3s;
+}
+
+#userslist table tbody tr .settings-btns .dlt-btn:hover{
+    border: 2px solid red;
+    color:red;
+}
+#userslist table tbody tr .settings-btns .dtls-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: .3s;
+}
+#userslist table tbody tr .settings-btns .dtls-btn:hover{
+    border: 2px solid rgb(0, 157, 255);
+    color:rgb(0, 157, 255);
+}

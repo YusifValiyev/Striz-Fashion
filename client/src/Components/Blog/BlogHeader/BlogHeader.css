@@ -1,0 +1,35 @@
+#blogheader{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/pattern_dark.png");
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4%;
+    gap: 10px;
+}
+
+#blogheader .blog-header-h4{
+    color: white;
+    font-size: 2.25rem;
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 700;
+}
+
+
+#blogheader .blog-header-p{
+    color: #bdbdbd99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#blogheader .blog-header-p .nav-home{
+    cursor: pointer;
+    transition: .3s;
+}
+
+#blogheader .blog-header-p .nav-home:hover{
+    color: red;
+}

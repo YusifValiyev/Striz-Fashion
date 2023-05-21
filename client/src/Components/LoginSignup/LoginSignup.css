@@ -1,0 +1,283 @@
+#loginsignup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.539)),url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/breadcrumb_contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#loginsignup .loginsignup-card{
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all .5s ease-in;
+    width: 400px;
+    margin-top: 10%;
+}
+
+.create-back{
+    background: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.539)),url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/br_about.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.rotate{
+    transform: rotateY(180deg);
+}
+
+.borderred{
+    border: 1px solid red !important;
+}
+
+#loginsignup .loginsignup-card .login{
+    position: absolute;
+    background-color: white;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px -3px rgba(162,162,162,0.7);
+}
+
+#loginsignup .loginsignup-card .login .login-h4{
+    font-family: "Barlow Condensed",sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    transition: .4s;
+}
+
+#loginsignup .loginsignup-card .login .login-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(210, 209, 209, 0.7);
+    transition: .3s;
+}
+#loginsignup .loginsignup-card .login .login-p span{
+    width: 0%;
+    transition: .3s;
+    height: 2px;
+    background-color: white;
+}
+
+#loginsignup .loginsignup-card .login .login-p:hover{
+    color: white;
+}
+
+#loginsignup .loginsignup-card .login .login-p:hover span{
+    width: 100%;
+}
+
+#loginsignup .loginsignup-card .login .login-h4:hover{
+    transform: translateY(-5px);
+}
+
+#loginsignup .loginsignup-card .login form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+#loginsignup .loginsignup-card .login form label{
+    width: 100%;
+}
+
+#loginsignup .loginsignup-card .login form label input{
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.557);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .3s;
+    color: rgba(211, 211, 211, 0.756);
+}
+
+#loginsignup .loginsignup-card .login form label input:focus{
+    border: 1px solid white;
+    color: white;
+}
+
+#loginsignup .loginsignup-card .login form label input::placeholder{
+    color: rgba(211, 211, 211, 0.756);
+    font-family: "Rubik";
+}
+
+#loginsignup .loginsignup-card .login form .login-btn{
+    background-color: rgba(54, 54, 54, 0.557);
+    color: rgb(205, 205, 205);
+    border: 1px solid rgba(54, 54, 54, 0.557);
+    padding: 9px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: "Rubik";
+}
+
+#loginsignup .loginsignup-card .login form .login-btn:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+ #loginsignup .loginsignup-card .signup{
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: transparent;
+    backdrop-filter:blur(3px);
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    box-shadow: 0px 0px 35px -3px rgba(162,162,162,0.7);
+}
+
+#loginsignup .loginsignup-card .signup .signup-h4{
+    font-family: "Barlow Condensed",sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    transition: .4s;
+}
+
+#loginsignup .loginsignup-card .signup .signup-h4:hover{
+    transform: translateY(-5px);
+}
+
+#loginsignup .loginsignup-card .signup form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+#loginsignup .loginsignup-card .signup form label{
+    width: 100%;
+}
+
+#loginsignup .loginsignup-card .signup form label input{
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.557);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .3s;
+    color: rgba(211, 211, 211, 0.756);
+}
+
+#loginsignup .loginsignup-card .signup form label input:focus{
+    border: 1px solid white;
+    color: white;
+}
+
+#loginsignup .loginsignup-card .signup form label input::placeholder{
+    color: rgba(211, 211, 211, 0.756);
+    font-family: "Rubik";
+}
+
+#loginsignup .loginsignup-card .signup form .signup-btn{
+    background-color: rgba(54, 54, 54, 0.557);
+    color: rgb(205, 205, 205);
+    border: 1px solid rgba(54, 54, 54, 0.557);
+    padding: 9px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: "Rubik";
+}
+
+#loginsignup .loginsignup-card .signup form .signup-btn:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+#loginsignup .loginsignup-card .signup .signup-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(210, 209, 209, 0.7);
+    transition: .3s;
+}
+#loginsignup .loginsignup-card .signup .signup-p span{
+    width: 0%;
+    transition: .3s;
+    height: 2px;
+    background-color: white;
+}
+
+#loginsignup .loginsignup-card .signup .signup-p:hover{
+    color: white;
+}
+
+#loginsignup .loginsignup-card .signup .signup-p:hover span{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+    #loginsignup .loginsignup-card{
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: all .5s ease-in;
+        width: 400px;
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 900px){
+    #loginsignup .loginsignup-card{
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: all .5s ease-in;
+        width: 400px;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #loginsignup .loginsignup-card{
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: all .5s ease-in;
+        width: 400px;
+        margin-top: 35%;
+    }
+}
+@media only screen and (max-width: 400px){
+    #loginsignup .loginsignup-card{
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: all .5s ease-in;
+        width: 300px;
+        margin-top: 59%;
+    }
+}

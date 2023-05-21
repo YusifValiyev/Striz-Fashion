@@ -1,0 +1,20 @@
+#seller{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    padding:5% 5%;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+#seller .seller-header .seller-header-head{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+#seller .seller-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-wrap: wrap;
+    gap: 5px;
+}

@@ -1,0 +1,450 @@
+#allproducts{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    padding: 3%;
+    display: grid;
+    grid-template-columns: .3fr .7fr;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#allproducts .allproducts-filters{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#allproducts .allproducts-filters .products-categories ul{
+    list-style: none;
+    width: 100%;
+}
+
+#allproducts .allproducts-filters .products-categories{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #e1e1e1;
+    padding: 35px 30px;
+}
+
+#allproducts .allproducts-filters .products-categories .categories-h3{
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#allproducts .allproducts-filters .products-categories ul li{
+    width: 100%;
+    font-family: "Rubik";
+}
+
+#allproducts .allproducts-filters .products-categories ul li .categs-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    width: 100%;
+}
+
+#allproducts .allproducts-filters .products-categories ul li .categs-head .categs-texts{
+    font-size: .9rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#allproducts .allproducts-filters .products-categories ul li .categs-head .categs-number{
+    color: #999;
+    font-size: .9rem;
+}
+
+#allproducts .allproducts-filters .products-categories ul li .categs-head .categs-texts:hover{
+    font-weight: 700;
+}
+
+#allproducts .allproducts-filters .pricefilter {
+    width: 100%;
+}
+
+#allproducts .allproducts-filters .pricefilter .range{
+    width: 100%;
+}
+
+
+.MuiSlider-root{
+    height: 3px !important;
+}
+.MuiSlider-thumb{
+    color: black !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+#allproducts .allproducts-filters .pricefilter .range-price{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 5px;
+    font-family: "Rubik";
+    font-size: .9rem;
+}
+
+#allproducts .allproducts-filters .pricefilter .range-price .prices{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+}
+#allproducts .allproducts-filters .pricefilter .range-price .prices span{
+    color: red;
+    font-family: "Rubik";
+    font-size: .9rem;
+}
+
+#allproducts .allproducts-filters .pricefilter .filter-h3{
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+hr{
+    width: 100%;
+}
+
+#allproducts .allproducts-filters .colorfilter {
+    width: 100%;
+}
+
+#allproducts .allproducts-filters .colorfilter .colorfilter-h3{
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#allproducts .allproducts-filters .colorfilter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#allproducts .allproducts-filters .colorfilter ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li{
+    width: 100%;
+    cursor: pointer;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts  .color-texts-color{
+    font-family: "Rubik";
+    color: #999;
+    font-size: .75rem;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .color-texts-backdiv{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius:100% ;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li:hover .color-head .color-texts .color-texts-backdiv{
+    border: 1px solid black;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .color-texts-frontdiv{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .blue{
+    background-color: rgb(63, 132, 249);
+}
+
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .yellow{
+    background-color: yellow;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .black{
+    background-color: black;
+}
+
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .white{
+    background-color: white;
+}
+
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-texts .red{
+    background-color: red;
+}
+
+#allproducts .allproducts-filters .colorfilter ul li .color-head .color-number{
+    border: 1px solid #999 ;
+    padding: 1px 10px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: .85rem;
+    color: #999;
+    font-family: "Rubik";
+    text-align: center;
+}
+
+#allproducts .allproducts-filters .sizefilter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#allproducts .allproducts-filters .sizefilter .sizefilter-h3{
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#allproducts .allproducts-filters .sizefilter ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#allproducts .allproducts-filters .sizefilter ul .sizefilter-filters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#allproducts .allproducts-filters .sizefilter ul .sizefilter-filters:hover .size-check{
+    border: 1px solid black;
+}
+#allproducts .allproducts-filters .sizefilter ul .sizefilter-filters:hover p{
+    color: black;
+}
+
+#allproducts .allproducts-filters .sizefilter ul .sizefilter-filters .size-check{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #999;
+    position: relative;
+    transition: .3s;
+}
+
+#allproducts .allproducts-filters .sizefilter ul .sizefilter-filters .size-check span{
+    color: red;
+    font-weight: 100;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+    width: 15px;
+    height: 5px;
+    transform: rotate(135deg);
+    display: none;
+}
+
+#allproducts .allproducts-filters .sizefilter ul .sizefilter-filters p{
+    color: #999;
+    font-size: .75rem;
+    font-family: "Rubik";
+    transition: .3s;
+}
+#allproducts .allproducts-products{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+#allproducts .allproducts-products .select-filters{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#allproducts .allproducts-products .select-filters .selection{
+    border: 1px solid #e3e3e3;
+}
+
+#allproducts .allproducts-products .select-filters select{
+    padding: 10px;
+    border: none;
+    width: 200px;
+    background-color: white;
+    font-family: "Rubik";
+    font-size: 16px;
+}
+
+#allproducts .allproducts-products .select-filters select option {
+
+}
+#allproducts .allproducts-products .select-filters select:focus{
+    outline: none;
+}
+
+#allproducts .allproducts-products .prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+#allproducts .allproducts-products .remove-filters{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    gap: 5px;
+}
+
+#allproducts .allproducts-products .remove-filters .rmv-txt{
+    color: #999;
+    font-size: .8rem;
+    border: 1px solid #dbdbdb;
+    padding: 3px 12px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    font-family: "Rubik";
+}
+
+#allproducts .allproducts-products .remove-filters .rmv-txt:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+#allproducts .allproducts-products .remove-filters .rmv-txt svg{
+    background-color: #999;
+    padding: 2px;
+    border-radius: 100%;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: -40%;
+    left: -10%;
+    transition: .3s;
+}
+
+#allproducts .allproducts-products .remove-filters .rmv-txt:hover svg{
+    background-color: red;
+}
+
+#allproducts .allproducts-products .remove-filters .clr-txt{
+    color: #333;
+    font-size: .8rem;
+    border-left: 1px solid #dbdbdb;
+    padding: 3px 12px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: "Rubik";
+}
+
+#allproducts .allproducts-products .remove-filters .clr-txt:hover{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
+
+.active-size{
+    display: block !important;
+}
+
+@media only screen and (max-width: 1100px){
+    #allproducts{
+        background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+        padding: 3%;
+        display: grid;
+        grid-template-columns: .4fr .6fr;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    #allproducts .allproducts-products .prod{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 874px){
+    #allproducts{
+        background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+        padding: 3%;
+        display: grid;
+        grid-template-columns: .6fr .4fr;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    #allproducts .allproducts-products .prod{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    #allproducts{
+        background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    #allproducts .allproducts-products .prod{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 730px){
+    #allproducts{
+        background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    #allproducts .allproducts-products .prod{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+

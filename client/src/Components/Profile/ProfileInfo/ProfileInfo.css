@@ -1,0 +1,159 @@
+#user-profile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#user-profile .profile {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 22px -3px rgba(178, 176, 176, 0.75);
+    -webkit-box-shadow: 0px 0px 22px -3px rgba(178, 176, 176, 0.75);
+    -moz-box-shadow: 0px 0px 22px -3px rgba(178, 176, 176, 0.75);
+}
+
+#user-profile .profile .profile-left {
+    background: rgb(16, 194, 162);
+    background: linear-gradient(94deg, rgba(16, 194, 162, 1) 0%, rgba(212, 69, 103, 1) 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 8%;
+    color: white;
+    font-family: "Rubik";
+    gap: 30px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+
+#user-profile .profile .profile-left svg {
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    transform: translate(-50% -50%);
+    font-size: 6rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#user-profile .profile .profile-left:hover img {
+    opacity: 0.6;
+}
+
+#user-profile .profile .profile-left:hover svg {
+    opacity: 1;
+    z-index: 1111;
+}
+
+#user-profile .profile .profile-left:hover .profile-username {
+    opacity: .6;
+}
+
+#user-profile .profile .profile-left:hover .profile-email {
+    opacity: .6;
+}
+
+#user-profile .profile .profile-left img {
+    width: 100%;
+    transition: .3s;
+}
+
+#user-profile .profile .profile-left .profile-username {
+    font-size: 20px;
+}
+
+#user-profile .profile .profile-left .profile-email {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#user-profile .profile .profile-right {
+    width: 70%;
+    padding: 3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    padding: 8% 9%;
+}
+
+#user-profile .profile .profile-right .head {
+    width: 100%;
+}
+
+#user-profile .profile .profile-right .head hr {
+    margin-top: 5px;
+}
+
+#user-profile .profile .profile-right .info {
+    font-size: 20px;
+    font-family: "Barlow Condensed";
+    font-weight: 600;
+}
+
+#user-profile .profile .profile-right .emailname {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+#user-profile .profile .profile-right .emailname .email,
+.name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#user-profile .profile .profile-right .emailname .emailname-h4 {
+    font-family: "Barlow Condensed";
+}
+
+#user-profile .profile .profile-right .emailname .emailname-p {
+    font-family: "Rubik";
+    color: #999;
+}
+
+#user-profile .profile .profile-right .emailname .gobasket,
+.gowish {
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+#user-profile .profile .profile-right .emailname .gobasket:hover {
+    color: red;
+}
+
+#user-profile .profile .profile-right .emailname .gowish:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 580px) {
+    #user-profile .profile {
+        flex-direction: column;
+    }
+
+    #user-profile .profile .profile-left {
+        width: 100%;
+    }
+
+    #user-profile .profile .profile-left img {
+        width: 30%;
+    }
+}

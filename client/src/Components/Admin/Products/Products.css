@@ -1,0 +1,132 @@
+#productslist{
+    position: absolute;
+    width: 82%;
+    right: 0;
+    top: 0;
+    background-color: #0B2744;
+    padding: 5%;
+    font-family: "Poppins";
+    height: auto;
+}
+
+#productslist .addandsearch{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#productslist .addandsearch .addnewproduct{
+    background-color: rgba(69, 69, 69, 0.495);
+    font-family: "Poppins";
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#productslist .addandsearch .searchinp{
+    background-color: rgba(69, 69, 69, 0.495);
+    outline: none;
+    border: 1px solid transparent;
+    color: white;
+    font-family: "Poppins";
+    padding: 10px 20px;
+    border-radius:5px ;
+}
+
+#productslist table{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    background-color: rgba(69, 69, 69, 0.495);
+    border-radius: 10px;
+}
+
+#productslist table thead th{
+    border: 1px solid white;
+    padding:20px;
+    text-align: start;
+    border: none;
+}
+
+#productslist table thead tr th{
+    background-color: transparent !important;
+    color: white;
+}
+
+#productslist table thead{
+    padding: 20px;
+}
+
+#productslist table tbody tr{
+    border-top:1px solid rgb(193, 193, 193) ;
+    border-bottom:1px solid rgb(216, 216, 216) ;
+    padding: 20px !important;
+
+}
+
+#productslist table tbody tr td{
+    border: none;
+    padding: 20px;
+}
+
+#productslist table tbody tr td{
+    color: white;
+}
+
+#productslist table tbody tr .settings-btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#productslist table tbody tr .settings-btns .dlt-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: .3s;
+}
+
+#productslist table tbody tr .settings-btns .dlt-btn:hover{
+    border: 2px solid red;
+    color: red;
+}
+
+#productslist table tbody tr .settings-btns .upd-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: .3s;
+}
+#productslist table tbody tr .settings-btns .upd-btn:hover{
+    border: 2px solid rgb(0, 157, 255);
+    color:rgb(0, 157, 255);
+}
+
+#productslist table tbody tr .settings-btns .dtls-btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: .3s;
+    
+}
+
+#productslist table tbody tr .settings-btns .dtls-btn:hover{
+    border: 2px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+}

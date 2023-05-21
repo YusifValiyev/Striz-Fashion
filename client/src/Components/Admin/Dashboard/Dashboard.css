@@ -1,0 +1,22 @@
+#dashboard{
+    position: absolute;
+    width: 82%;
+    right: 0;
+    top: 0;
+    background-color: #0B2744;
+    padding: 5%;
+    font-family: "Poppins";
+    height: 100%;
+}
+
+#dashboard .admin-username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#dashboard .admin-username h1{
+    color: white;
+    font-size: 3rem;
+}

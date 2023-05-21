@@ -1,0 +1,74 @@
+#follow{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3%;
+    gap: 5rem;
+}
+
+#follow .follow-header .follow-header-head{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#follow .follow-header p{
+    color: red;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+#follow .follow-slider{
+    width: 100%;
+}
+#follow .follow-slider.mySwiper2 {
+    height: 300px !important;
+  }
+  .swip {
+    height: 300px !important;
+    background: #882525;
+    line-height: 300px;
+    text-align: center;
+  }
+  .swiper-slide:nth-child(1){
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-11-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(2) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-3-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(3) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-2-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(4) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-4-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(5) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-9-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(6) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-10-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(7) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-2-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(8){
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-11-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(9) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-3-1-600x675.jpg");
+    background-size: cover;
+  }
+  .swiper-slide:nth-child(10) {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2018/12/blog-2-1-600x675.jpg");
+    background-size: cover;
+  }

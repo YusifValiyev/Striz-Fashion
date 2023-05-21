@@ -1,0 +1,18 @@
+#onsaleimage {
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/on_sale_bread.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+#onsaleimage .onsale-image-text {
+    color: white;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}

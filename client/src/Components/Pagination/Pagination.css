@@ -1,0 +1,22 @@
+#pagination{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-top: 10px;
+}
+.pag-btns{
+    background-color: transparent;
+    color: black;
+    padding:10px 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.active-btns{
+    color: red !important;
+    background-color: transparent;
+    padding:10px 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+#arrivals{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    padding:5% 5%;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+#arrivals .arrivals-header .arrivals-header-head{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+#arrivals .arrivals-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.mapouter{
+    background:url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    background-color: rgb(246, 245, 245);
+    margin-top: 0;
+    position:relative;
+    text-align:right;
+    height:600px;
+    width:100%;
+    padding: 0 7% 5% 7%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}

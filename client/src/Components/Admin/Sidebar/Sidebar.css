@@ -1,0 +1,94 @@
+#adminsidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18%;
+    height: 100%;
+    background-color: #0B2744;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+#adminsidebar img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+#adminsidebar .adminsidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 10px 0px 10px;
+}
+
+#adminsidebar .adminsidebar-header svg{
+    color: #2db2f4;
+    font-size: 2rem;
+}
+
+#adminsidebar .adminsidebar-header .adminsidebar-h3{
+    color: #2db2f4;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.3rem;
+}
+
+#adminsidebar .adminsidebar-general ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    color: #2db2f4;
+    font-family: "Poppins";
+    width: 100%;
+}
+#adminsidebar .adminsidebar-general ul li{
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    cursor: pointer !important;
+    font-size: 13px;
+}
+
+#adminsidebar .adminsidebar-general ul li a{
+    text-decoration: none;
+    color: #2db2f4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+#adminsidebar .adminsidebar-general ul li svg{
+    font-size: 1rem;
+}
+
+#adminsidebar .adminsidebar-general ul li:hover{
+    background-color: rgba(0, 69, 139, 0.8);
+    color: rgb(182, 200, 217);
+}
+#adminsidebar .adminsidebar-general ul li:hover a{
+    color: rgb(182, 200, 217);
+}
+
+#adminsidebar .adminsidebar-general .general{
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: rgb(139, 161, 183);
+    padding: 10px;
+}
+
+#adminsidebar .adminsidebar-general{
+    width: 100%;
+}

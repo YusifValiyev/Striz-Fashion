@@ -1,0 +1,37 @@
+#related{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    padding:5% 5%;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#related .related-header .related-header-head{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+
+#related .related-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 1150px){
+    #related .related-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #related .related-products{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,418 @@
+#explore{
+    background: url('https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png');
+    padding: 4% 7%;
+}
+
+.explore-cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "card1 card2 card3"
+    "card4 card2 card3"
+    "card5 card5 card3";
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-cards-card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.explore-cards-card img{
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+}
+.shopsave{
+    grid-area: card1;
+}
+
+.shopsave .shopsave-text{
+    position: absolute;
+    top: 65px;
+    left: 40px;
+}
+
+.shopsave .shopsave-text h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #735c3d;
+    letter-spacing: 2.8px;
+    margin-bottom: 30px;
+}
+.shopsave .shopsave-text h2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.shopsave .shopsave-text h2 span{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #735c3d;
+    background-size: 0%;
+    background-image: linear-gradient(to right,#000 0,#000 100%); 
+    transition: background .5s;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+.shopsave:hover .shopsave-text h2 span{
+    background-size: 100%;
+    color: white;
+}
+.newarrivals{
+    grid-area: card4;
+}
+.newarrivals .shopsave-text{
+    position: absolute;
+    top: 65px;
+    right: 40px;
+}
+.newarrivals .shopsave-text h2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.newarrivals .shopsave-text h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2.8px;
+    margin-bottom: 30px;
+    text-align: end;
+}
+.newarrivals .shopsave-text h2 {
+    text-align: end;
+}
+
+.newarrivals .shopsave-text h2 span{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+    background-size: 0%;
+    background-image: linear-gradient(to right,#000 0,#000 100%); 
+    transition: .3s;
+    transition: background .5s;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+.newarrivals:hover .shopsave-text h2 span{
+    background-size: 100%;
+}
+
+.explore-cards-card:hover img{
+    transform: scale(1.1);
+}
+
+
+.smartstyle{
+    position: relative;
+    grid-area: card2;
+    height: 100%;
+    overflow: hidden;
+}
+
+.smartstyle img{
+    height: 100%;
+    transition: 0.3s;
+}
+
+.smartstyle .shopsave-text{
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    transform: translateX(35%);
+    color: white;
+    text-align: center;
+}
+.smartstyle .shopsave-text h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2.8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.smartstyle .shopsave-text h2 {
+    text-align: center;
+}
+
+.smartstyle .shopsave-text h2 span{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+    background-size: 0%;
+    background-image: linear-gradient(to right,#000 0,#000 100%); 
+    transition: .3s;
+    transition: background .5s;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+.smartstyle:hover .shopsave-text h2 span{
+    background-size: 100%;
+}
+
+.smartstyle .shopsave-text button{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding:15px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    margin-top: 3rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.smartstyle .shopsave-text button:hover{
+    background-color: #e33d3d;
+    border: 2px solid #e33d3d;
+
+}
+
+
+.smartstyle:hover img{
+    transform: scale(1.1)
+}
+
+.topbrands{
+    position: relative;
+    grid-area: card3;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.topbrands img{
+    height: 100%;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.topbrands .shopsave-text{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    transform: translateX(35%);
+    color: #2C3546;
+    text-align: center;
+}
+.topbrands .shopsave-text h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #2C3546;
+    letter-spacing: 2.8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.topbrands .shopsave-text h2 {
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.topbrands .shopsave-text h2 span{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #2C3546;
+    background-size: 0%;
+    background-image: linear-gradient(to right,#000 0,#000 100%); 
+    transition: .3s;
+    transition: background .5s;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+.topbrands:hover .shopsave-text h2 span{
+    background-size: 100%;
+    color: white;
+}
+
+.topbrands .shopsave-text button{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: transparent;
+    color: #2C3546;
+    border: 2px solid #2C3546;
+    padding:15px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    margin-top: 3rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.topbrands:hover .shopsave-text button:hover{
+    background-color: #e33d3d;
+    border: 2px solid #e33d3d;
+    color: white;
+
+}
+
+
+.topbrands:hover img{
+    transform: scale(1.1)
+}
+
+.freeshipping{
+    grid-area: card5;
+    width: 100%;
+}
+
+.freeshipping img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1309px){
+    #explore{
+        padding: 4% 2%;
+    }
+    .shopsave .shopsave-text h2 span{
+        font-size: 30px;
+    }
+    .newarrivals .shopsave-text h2 span{
+        font-size: 30px;
+    }
+    .smartstyle .shopsave-text h2 span{
+        font-size: 30px;
+    }
+    .topbrands .shopsave-text h2 span{
+        font-size: 30px;
+    }
+    .smartstyle .shopsave-text button{
+        font-size: 14px;
+    }
+    .topbrands .shopsave-text button{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1035px){
+    #explore{
+        padding:4% 0% ;
+    }
+    .shopsave .shopsave-text h2 span{
+        font-size: 20px;
+    }
+    .newarrivals .shopsave-text h2 span{
+        font-size: 20px;
+    }
+    .smartstyle .shopsave-text h2 span{
+        font-size: 20px;
+    }
+    .topbrands .shopsave-text h2 span{
+        font-size: 20px;
+    }
+    .smartstyle .shopsave-text button{
+        font-size: 12px;
+    }
+    .topbrands .shopsave-text button{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 873px){
+    .smartstyle .shopsave-text button{
+        padding: 10px 20px;
+    }
+    .topbrands .shopsave-text button{
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 773px){
+
+    #explore .explore-cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 0.5fr 0.6fr ;
+        grid-template-areas: 
+        "card1"
+        "card4"
+        "card2"
+        "card3"
+        "card5";
+    }
+    .shopsave {
+        width: 100%;
+        height: 100%;
+    }
+    .shopsave img{
+        object-fit: cover;
+    }
+    .newarrivals {
+        width: 100%;
+        height: 100%;
+    }
+    .newarrivals img{
+        object-fit: cover;
+    }
+    .smartstyle {
+        width: 100%;
+    }
+    .smartstyle img {
+        width: 100%;
+        object-fit:cover;
+    }
+    .topbrands {
+        width: 100%;
+    }
+    .topbrands img{
+        object-fit: cover;
+    }
+    .smartstyle .shopsave-text button{
+        font-size: 12px;
+        margin-top: 7%;
+    }
+    .topbrands .shopsave-text button{
+        font-size: 12px;
+        margin-top: 7%;
+    }
+    .smartstyle .shopsave-text{
+        right: 45%;
+    }
+    .smartstyle .shopsave-text h4{
+        margin-bottom: 10px;
+    }
+    .topbrands .shopsave-text{
+        right: 45%;
+    }
+    .topbrands .shopsave-text h4{
+        margin-bottom: 10px;
+    }
+    .newarrivals .shopsave-text h2 span{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 438px){
+    .shopsave .shopsave-text h2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px !important;
+    }
+    .shopsave .shopsave-text h4{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,36 @@
+#onsaleproducts{
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+#onsaleproducts .onsaleproducts-header .onsale-header-h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#onsaleproducts .onsaleproducts-header .onsale-header-h4 span{
+    width: 0;
+    background-color: black;
+    height: 2px;
+    display: block;
+    transition: .3s;
+}
+#onsaleproducts .onsaleproducts-header .onsale-header-h4:hover span{
+    width: 100%;
+}
+
+#onsaleproducts .onsaleproducts-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}

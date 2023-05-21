@@ -1,0 +1,285 @@
+#buycart{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    background-color: rgb(242, 242, 242);
+
+}
+
+#buycart .buycart-wrapper{
+    background-color: white;
+    padding: 5%;
+    position: relative;
+    color: white;
+}
+
+#buycart .buycart-wrapper .cart-visa .visa{
+    font-style: italic;
+    font-family: "RUBIK";
+}
+
+#buycart .buycart-wrapper .cart-inputs{
+    width: 100%;
+}
+
+#buycart .buycart-wrapper .cart-inputs form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+
+#buycart .buycart-wrapper .cart-inputs form button{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-family: "Barlow Condensed";
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#buycart .buycart-wrapper .cart-inputs form input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: "Rubik";
+    font-size: 1rem;
+    outline: none;
+    transition: .3s;
+}
+
+#buycart .buycart-wrapper .credit-cart .map{
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#buycart .buycart-wrapper .cart-inputs form input:focus{
+    border: 1px solid rgb(126, 126, 126);
+}
+#buycart .buycart-wrapper .cart-inputs form input::placeholder{
+    color: rgb(184, 184, 184);
+}
+
+#buycart .buycart-wrapper .credit-cart{
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+padding: 20px 30px;
+position: absolute;
+top: -35%;
+right:17%;
+width: 350px;
+height: 200px;
+font-family: "RUBIK";
+overflow: hidden;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-visa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-visa img{
+    width: 30px;
+    height: 25px;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-number{
+    width: 100%;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-number .number-example{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-cvv-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-cvv-date .cart-name .name-example{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-cvv-date .cvv-date{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+#buycart .buycart-wrapper .credit-cart .cart-cvv-date .cvv-date h4{
+    font-weight: 500;
+}
+
+.borderred{
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 1220px){
+    #buycart .buycart-wrapper .cart-inputs form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+        gap: 20px;
+    }
+    #buycart .buycart-wrapper .credit-cart{
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+padding: 20px 30px;
+position: absolute;
+top: -39%;
+right:15%;
+width: 350px;
+height: 200px;
+font-family: "RUBIK";
+overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 1040px){
+    #buycart .buycart-wrapper .credit-cart{
+        background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    top: -41%;
+    right:16%;
+    width: 350px;
+    height: 200px;
+    font-family: "RUBIK";
+    overflow: hidden;
+}
+}
+
+
+@media only screen and (max-width: 960px){
+    #buycart .buycart-wrapper .credit-cart{
+        background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    top: -47%;
+    right:15%;
+    width: 350px;
+    height: 200px;
+    font-family: "RUBIK";
+    overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 770px){
+    #buycart .buycart-wrapper .credit-cart{
+        background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    top: -52%;
+    right:12%;
+    width: 350px;
+    height: 200px;
+    font-family: "RUBIK";
+    overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 510px){
+    #buycart .buycart-wrapper .credit-cart{
+        background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    top: -57%;
+    right:11%;
+    width: 350px;
+    height: 200px;
+    font-family: "RUBIK";
+    overflow: hidden;
+}
+}
+@media only screen and (max-width: 440px){
+    #buycart .buycart-wrapper .credit-cart{
+        background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 66%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    top: -61%;
+    right:5%;
+    width: 350px;
+    height: 200px;
+    font-family: "RUBIK";
+    overflow: hidden;
+}
+#buycart .buycart-wrapper .cart-inputs form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    gap: 20px;
+}
+}

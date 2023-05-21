@@ -1,0 +1,233 @@
+#contactinputs{
+    background:url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    background-color: rgb(246, 245, 245);
+    padding: 5% 7% 0% 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contactinputs .contact-inputs-section{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 5%;
+    width: 100%;
+}
+#contactinputs .contact-inputs-section .contactinputs-contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-header .contact-header-h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    letter-spacing: -0.8px;
+    font-family: "Barlow Condensed",sans-serif;
+}
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .contactinputs-addressandopening{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .contactinputs-addressandopening .contactinputs-address{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .contactinputs-h5{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    font-family: "Barlow Condensed",sans-serif;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .contactinputs-p{
+    color: #555555;
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .fb,.tw,.ins{
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .fb:hover{
+    color: red;
+}
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .tw:hover{
+    color: red;
+}
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .ins:hover{
+    color: red;
+}
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .add-p{
+    max-width: 80%;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .contactinputs-addressandopening .contactinputs-opening{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs .contactinputs-inputs-header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs .contactinputs-inputs-header .contact-inputs-h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    letter-spacing: -0.8px;
+    font-family: "Barlow Condensed",sans-serif;
+}
+#contactinputs .contact-inputs-section .contactinputs-inputs .contactinputs-inputs-header .contact-inputs-p{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    letter-spacing: -0.3px;
+    font-family: "Barlow Condensed",sans-serif;
+    color: #555555;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form label{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form label p{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-family: "Rubik",sans-serif;
+    font-size: .75rem;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form label input,textarea{
+    width: 100%;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 15px 10px;
+    caret-color: #afafaf;
+    transition: 0.3s;
+    color: #555555;
+    resize: none;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form label textarea:focus{
+    outline: none;
+    border: 1px solid red;
+}
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form label input:focus{
+    outline: none;
+    border: 1px solid red;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form .contact-submit-btn{
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    padding:20px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    margin-top: 3rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields form .contact-submit-btn:hover{
+    background-color: rgb(178, 7, 7);
+}
+
+@media only screen and (max-width: 820px){
+    #contactinputs .contact-inputs-section{
+        flex-direction: column;
+    }
+    #contactinputs .contact-inputs-section .contactinputs-contact{
+        width: 100%;
+    }
+    #contactinputs .contact-inputs-section .contactinputs-inputs{
+        width: 100%;
+    }
+    #contactinputs .contact-inputs-section .contactinputs-inputs  .contactinputs-fields{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 545px){
+    
+#contactinputs .contact-inputs-section .contactinputs-contact .contactinputs-contact-texts .contactinputs-addressandopening{
+    flex-direction: column;
+}
+}

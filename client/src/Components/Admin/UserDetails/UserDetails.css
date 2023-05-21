@@ -1,0 +1,207 @@
+#userdetails{
+    position: absolute;
+    width: 82%;
+    right: 0;
+    top: 0;
+    background-color: #0B2744;
+    padding: 10%;
+    font-family: "Poppins";
+    height: 100%;
+}
+
+#userdetails .userdetailsform{
+    background-color: rgba(92, 92, 92, 0.199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 4%;
+    gap: 20px;
+}
+
+#userdetails .userdetailsform .userimage{
+    width: 100%;
+    text-align: center;
+}
+
+#userdetails .userdetailsform .userimage img{
+    width: 150px;
+}
+
+#userdetails .userdetailsform .userinfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#userdetails .userdetailsform .userinfo .user-username{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+}
+
+#userdetails .userdetailsform .userinfo .user-useremail{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+}
+
+#userdetails .userdetailsform .userinfo .userinfo-h4{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+#userdetails .userdetailsform .userinfo .userinfo-p{
+    font-family: "Poppins";
+    font-style: italic;
+    color: white;
+    font-size: 1rem;
+}
+
+#userdetails .userdetailsform .userinfo .userinfo-p span{
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .3s;
+
+}
+
+#userdetails .userdetailsform .userinfo .userinfo-p:hover span{
+    width: 100%;
+}
+
+#userdetails .userdetailsform .usercardandwish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+#userdetails .userdetailsform .usercardandwish .admincardwish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#userdetails .userdetailsform .usercardandwish .admincardwish .admincardwish-usercard{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+#userdetails .userdetailsform .usercardandwish .admincardwish .admincardwish-usercard span{
+    background-color: white;
+    height: 2px;
+    width: 0%;
+    transition: .3s;
+}
+
+#userdetails .userdetailsform .usercardandwish .admincardwish .admincardwish-usercard:hover span{
+    width: 100%;
+}
+#userdetails .userdetailsform .usercardandwish .admincardwish .admincardwish-userwish{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#userdetails .userdetailsform .usercardandwish .admincardwish .admincardwish-userwish span{
+    background-color: white;
+    height: 2px;
+    width: 0%;
+    transition: .3s;
+}
+
+#userdetails .userdetailsform .usercardandwish .admincardwish .admincardwish-userwish:hover span{
+    width: 100%;
+}
+
+#userdetails .userdetailsform .usercardandwish .userwish-table{
+    width: 100%;
+}
+
+#userdetails .userdetailsform .usercardandwish .userwish-table table{
+    width: 100%;
+    font-family: "Poppins";
+    color: white;
+    border-collapse: collapse;
+}
+
+#userdetails .userdetailsform .usercardandwish .userwish-table table tbody tr{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table table tbody tr{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+
+#userdetails .userdetailsform .usercardandwish .userwish-table table tbody tr td{
+    border: none;
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table table tbody tr td{
+    border: none;
+}
+
+/* #userdetails .userdetailsform .usercardandwish .userwish-table table tbody tr{
+    border: none;
+} */
+
+#userdetails .userdetailsform .usercardandwish .usercard-table{
+    width: 100%;
+    text-align: center;
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table p{
+    font-family: "Poppins";
+    color: white;
+    font-size: 2rem;
+}
+
+#userdetails .userdetailsform .usercardandwish .userwish-table p{
+    font-family: "Poppins";
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table table{
+    width: 100%;
+    font-family: "Poppins";
+    color: white;
+    border-collapse: collapse;
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table table tbody tr td{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table table tbody tr th td{
+    border: none;
+}
+
+#userdetails .userdetailsform .usercardandwish .usercard-table table tbody tr{
+    border: none;
+}

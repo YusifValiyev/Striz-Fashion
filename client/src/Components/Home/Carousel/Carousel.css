@@ -1,0 +1,183 @@
+.slider-card{
+    width: 100%;
+    background: url("https://t4.ftcdn.net/jpg/04/07/71/83/360_F_407718385_cM0suisbVWNMuTKxTh8bgJ1YbugsP1ps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    overflow: hidden;
+    background-attachment: fixed;
+    height: 100% !important;
+  }
+.card_2{
+    flex-direction: row-reverse;
+  }
+.card_1 .slider-card-text{
+    color: white;
+    position: relative;
+    margin-top: -100px;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .card_2 .slider-card-text{
+    color: white;
+    position: relative;
+    margin-top: -100px;
+    right: 10% !important;
+    z-index: 1;
+  }
+  
+  
+.slider-card .slider-card-text .slider-card-h3{
+    font-size: 1.4rem;
+    transition: 0.4s;
+    font-style: italic;  
+  }
+  
+.slider-card .slider-card-text .slidar-card-h2{
+    font-size: 7rem;
+    margin-left: 30px;
+    margin-top: -20px;
+    transition: 0.4s;
+    font-style: italic;
+  }
+.slider-card .slider-card-text img{
+    position: absolute;
+    top: 100px;
+    width: 500px;
+    z-index: 1;
+  }
+/* .slider-card-image{
+position: relative;
+} */
+.slider-card .slider-card-image .slider-card-image-image{
+    animation: flower 10s infinite;
+    position: relative !important;
+}
+.card_1 .slider-card-image .slider-card-image-person{
+    position: absolute;
+    bottom: 0;
+    right: 27%;
+    object-fit: cover;
+    height: 596px;
+    transition: 0.4s;
+  }
+  .card_2 .slider-card-image .slider-card-image-person{
+    position: absolute;
+    bottom: 0;
+    left: 24%;
+    object-fit: cover;
+    height: 596px;
+    transition: 0.4s;
+  }
+.swiper-slide{
+  height: 100% !important;
+}
+.swiper-button-prev{
+    color: white;
+}
+
+.swiper-button-next{
+    color: white;
+}
+
+.mySwiper{
+  height: 600px !important;
+}
+
+@keyframes flower{
+    0%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 1420px){
+  .slider-card .slider-card-text .slider-card-h3{
+    font-size: 1rem;
+    transition: 0.4s;
+    font-style: italic;  
+  }
+  
+.slider-card .slider-card-text .slidar-card-h2{
+    font-size: 5rem;
+    margin-left: 30px;
+    margin-top: -20px;
+    transition: 0.4s;
+    font-style: italic;
+  }
+.slider-card .slider-card-text img{
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    z-index: 1;
+  }
+  .slider-card .slider-card-image .slider-card-image-image{
+    width: 70%;
+}
+.slider-card .slider-card-image .slider-card-image-person{
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+    height: 430px;
+    transition: 0.4s;
+  }
+  .mySwiper{
+    height: 500px !important;
+  }
+}
+@media only screen and (max-width: 1225px){
+  .slider-card .slider-card-text .slider-card-h3{
+    font-size: 1rem;
+    transition: 0.4s;
+    font-style: italic;  
+  }
+  
+.slider-card .slider-card-text .slidar-card-h2{
+    font-size: 5rem;
+    margin-left: 30px;
+    margin-top: -20px;
+    transition: 0.4s;
+    font-style: italic;
+  }
+.slider-card .slider-card-text img{
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    z-index: 1;
+  }
+  .slider-card .slider-card-image .slider-card-image-image{
+    width: 50%;
+}
+.slider-card .slider-card-image .slider-card-image-person{
+    height: 340px;
+  }
+  .mySwiper{
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 1048px){
+
+  .slider-card .slider-card-text .slider-card-h2{
+    font-size: 3rem !important;
+  }
+  .myswiper{
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .slider-card .slider-card-image .slider-card-image-image{
+    display: none;
+  }
+}

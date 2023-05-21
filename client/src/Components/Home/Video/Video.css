@@ -1,0 +1,63 @@
+#summer .summer-video{
+    position: relative;
+}
+#videoo{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.886);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 1111;
+    overflow: hidden;
+}
+#videoo .video-player{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#videoo .video-player svg{
+    font-size: 1.8rem;
+    color: gray;
+}
+
+#videoo .video-player iframe{
+
+}
+@media only screen and (max-width: 1010px){
+    #videoo .video-player video{
+        width: 800px !important;
+        height: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 812px){
+    #videoo .video-player video{
+        width: 600px !important;
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #videoo .video-player video{
+        width: 400px !important;
+        height: 200px !important;
+    }
+}
+@media only screen and (max-width: 400px){
+    #videoo .video-player video{
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+@media only screen and (max-width: 300px){
+    #videoo .video-player video{
+        width: 250px !important;
+        height: 150px !important;
+    }
+}

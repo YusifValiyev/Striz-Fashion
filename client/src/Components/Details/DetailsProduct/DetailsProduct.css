@@ -1,0 +1,239 @@
+#detailsproduct{
+    padding: 5% 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+}
+
+
+#detailsproduct .detailsproduct-image {
+    width: 100%;
+    height: 100%;
+}
+
+#detailsproduct .detailsproduct-image img{
+    width: 100%;
+    height: 100%;
+}
+#detailsproduct .detailsproduct-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#detailsproduct .detailsproduct-details .priceanddesc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#detailsproduct .detailsproduct-details .priceanddesc .price .price-h5{
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+#detailsproduct .detailsproduct-details .priceanddesc .desc .desc-p{
+    font-family: "Rubik",sans-serif;
+    color: #999;
+    line-height: 1.75rem;
+}
+
+#detailsproduct hr{
+    border: none;
+    background-color: #cbcbcb;
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#detailsproduct .detailsproduct-details .countandcart{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+#detailsproduct .detailsproduct-details .countandcart .count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid #999;
+    padding: 0px 8px;
+}
+#detailsproduct .detailsproduct-details .countandcart .outofstock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    border: 1px dashed #999;
+    padding: 20px;
+}
+#detailsproduct .detailsproduct-details .countandcart .outofstock .out-h3{
+    color: #3e3e3e;
+    font-family: "Rubik";
+    font-size: 1rem;
+}
+
+#detailsproduct .detailsproduct-details .countandcart .addcart{
+    background-color: black;
+    color: white;
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+}
+
+#detailsproduct .detailsproduct-details .countandcart .addcart:hover{
+    background-color: red;
+}
+
+#detailsproduct .detailsproduct-details .categoriesandsku{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#detailsproduct .detailsproduct-details .categoriesandsku .sku,.categories,.color{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 4px;
+}
+
+#detailsproduct .detailsproduct-details .categoriesandsku .skucat-h6{
+    font-weight: 500;
+    font-family: "Barlow Condensed",sans-serif;
+    font-size: 1.1rem;
+}
+
+#detailsproduct .detailsproduct-details .categoriesandsku .skucat-p{
+    color: #666;
+    font-family: "Rubik";
+    font-size: .8rem;
+}
+
+#detailsproduct .detailsproduct-details .browse-wish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#detailsproduct .detailsproduct-details .browse-wish:hover .browse-p{
+    color: red !important;
+}
+#detailsproduct .detailsproduct-details .browse-wish:hover svg{
+    color: red !important;
+}
+
+#detailsproduct .detailsproduct-details .browse-wish .browse-p{
+    color: #333;
+    font-family: "Rubik";
+    font-size: .9rem;
+    transition: .2s;
+}
+
+#detailsproduct .detailsproduct-details .browse-wish svg{
+    font-size: 1.1rem;
+    transition: .2s;
+}
+
+#detailsproduct .detailsproduct-details .socialmedias {
+    width: 100%;
+}
+
+#detailsproduct .detailsproduct-details .socialmedias ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+#detailsproduct .detailsproduct-details .socialmedias ul li{
+    font-family: "Barlow Condensed";
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+#detailsproduct .detailsproduct-details .socialmedias ul li:hover{
+    color: red;
+}
+
+
+#detailsproduct .detailsproduct-details .categoriesandsku .color-div{
+    width: 27px;
+    height: 27px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s
+}
+
+#detailsproduct .detailsproduct-details .categoriesandsku .color-div .color-div-color{
+    width: 22px;
+    height: 22px;
+}
+
+#detailsproduct .detailsproduct-details .categoriesandsku .color-div:hover {
+    box-shadow: 0 0 0 3px #ddd;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 1200px){
+    #detailsproduct .detailsproduct-image {
+        width: 100%;
+        height: 70%;
+    }
+    #detailsproduct .detailsproduct-details .socialmedias ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    #detailsproduct{
+        padding: 5% 7%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+    }
+    #detailsproduct .detailsproduct-image {
+        width: 100%;
+        height: 100%;
+    }
+    #detailsproduct .detailsproduct-image img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #detailsproduct .detailsproduct-image {
+        width: 70%;
+        height: 100%;
+    }
+}

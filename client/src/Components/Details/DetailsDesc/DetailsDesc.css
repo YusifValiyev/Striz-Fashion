@@ -1,0 +1,130 @@
+#detailsdesc{
+    padding: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+}
+
+#detailsdesc .detaildesc-headers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#detailsdesc .detaildesc-headers .detaildesc-headers-h4{
+    color: #222;
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+}
+
+#detailsdesc .detaildesc-headers .detaildesc-headers-h4 span{
+    background-color: #222;
+    height: 2px;
+    width: 0;
+    transition: .3s;
+}
+
+#detailsdesc .detaildesc-headers .detaildesc-headers-h4:hover span{
+    width: 100%;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#detailsdesc .detaildesc-desc .detaildesc-description .detaildesc-description-p{
+    font-family: "Rubik",sans-serif;
+    color: #999;
+    line-height: 1.75rem;
+    max-width: 70%;
+}
+
+#detailsdesc .detaildesc-desc {
+    width: 100%;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-addinfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-addinfo table {
+    border: 1px solid #f5f5f5;
+    border-collapse: collapse;
+    font-family: "Rubik";
+    width: 70%;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-addinfo table tbody tr:nth-child(even){
+    background-color: #f5f6fa;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-addinfo table tbody tr:nth-child(odd){
+    background-color: #e8eaed;
+}
+
+
+#detailsdesc .detaildesc-desc .detaildesc-addinfo table tbody tr th,td{
+    text-align: start; 
+    border: 1px solid #d9d9d9;
+    padding: 15px 20px;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-addinfo table tbody tr td{
+    color: #999;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#detailsdesc .detaildesc-desc .detaildesc-reviews .reviews{
+    background-color: #3d9cd2;
+    width: 70%;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-family: "Rubik";
+}
+
+.activetabs{
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 600px){
+    #detailsdesc .detaildesc-desc .detaildesc-addinfo table {
+        border: 1px solid #f5f5f5;
+        border-collapse: collapse;
+        font-family: "Rubik";
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    #detailsdesc .detaildesc-headers .detaildesc-headers-h4{
+        color: #222;
+        font-family: "Barlow Condensed",sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        cursor: pointer;
+    }
+}

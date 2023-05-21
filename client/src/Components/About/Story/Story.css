@@ -1,0 +1,166 @@
+#story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 7%;
+    background: url("https://demo2.wpopal.com/striz/wp-content/uploads/2019/01/pattern_light2.png");
+}
+
+#story .story-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    max-width:60% ;
+}
+
+#story .story-header .story-header-h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Barlow Condensed", Sans-serif;
+}
+
+#story .story-header .story-header-p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-family: "Rubik",Sans-serif;
+}
+
+#story .story-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "img1 text1"
+    "img1 img2"
+    "text2 img2"
+    ;
+    gap: 30px;
+    padding:7% 1%;
+}
+
+#story .story-section .story-section-image1{
+    grid-area: img1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#story .story-section .story-section-image2{
+    grid-area: img2;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#story .story-section .story-section-image1 img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+#story .story-section .story-section-image2 img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+#story .story-section .story-section-image1:hover img{
+    opacity: 0.8;
+}
+#story .story-section .story-section-image2:hover img{
+    opacity: 0.8;
+}
+
+#story .story-section .story-section-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5rem 4rem;
+}
+#story .story-section .story-section-text2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5rem 4rem;
+}
+
+#story .story-section .story-section-text1 .story-section-text1-h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Barlow Condensed", Sans-serif;
+}
+#story .story-section .story-section-text1 .story-section-text1-p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-family: "Rubik",Sans-serif;
+}
+
+#story .story-section .story-section-text2 .story-section-text2-delivery,.story-section-text2-support,.story-section-text2-payment{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+#story .story-section .story-section-text2 .story-section-text2-delivery:hover svg{
+    color: red;
+}
+
+#story .story-section .story-section-text2 .story-section-text2-support:hover svg{
+    color: red;
+}
+
+#story .story-section .story-section-text2 .story-section-text2-payment:hover svg{
+    color: red;
+}
+#story .story-section .story-section-text2 .delievery-h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Barlow Condensed", Sans-serif;
+}
+
+#story .story-section .story-section-text2 svg{
+    font-size: 5rem;
+    transition: .3s;
+}
+
+
+#story .story-section .story-section-text2 .delievery-p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-family: "Rubik",Sans-serif;
+}
+
+@media only screen and (max-width: 960px){
+    #story .story-header{
+        max-width: 100%;
+    }
+    #story .story-section .story-section-text1{
+        align-items: center;
+        text-align: center;
+        padding: .5rem;
+    }
+    #story .story-section .story-section-text2{
+        padding: .5rem;
+    }
+    #story .story-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "text1" 
+        "img1"
+        "text2"
+        "img2"
+        ;
+        gap: 30px;
+        padding:7% 1%;
+    }
+}
